@@ -1,0 +1,60 @@
+/* Estilos para telas menores que 768px */
+@media (max-width: 992px) {
+    /* Ajustar tamanho do texto no cabeçalho para telas pequenas */
+    header {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    /* Navegação em telas pequenas */
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    /* Ajuste de espaçamento no conteúdo principal */
+    main {
+        font-size: 1em;
+        padding: 20px;
+    }
+
+    /* Rodapé */
+    footer {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+
+/* Estilos para telas menores que 480px */
+@media (max-width: 480px) {
+    /* Cabeçalho em telas muito pequenas */
+    header {
+        font-size: 1.3em;
+        padding: 10px;
+    }
+
+    /* Navegação ainda mais compacta */
+    nav ul li a {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    /* Ajustes gerais para melhorar legibilidade */
+    main {
+        font-size: 0.9em;
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 10px;
+    }
+}
